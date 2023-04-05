@@ -32,6 +32,6 @@ app.get('/:shortUrl',async (req, res) =>{
     shortUrl.save();
     res.redirect(shortUrl.full);
 })
-app.listen(process.env.PORT || 5002, ()=>{
-    console.log('server is listening 5002');
+app.listen(process.env.PORT || 3000, ()=>{
+    console.log('server is listening 3000');
 })
